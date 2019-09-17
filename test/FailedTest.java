@@ -33,7 +33,7 @@ public class FailedTest extends TestCase {
 
     DesiredCapabilities caps = new DesiredCapabilities();
     caps.setCapability("browserName", "IE");
-    caps.setCapability("version", "9");
+    caps.setCapability("version", "9")
     caps.setCapability("platform", "WINDOWS");
 
     try {
